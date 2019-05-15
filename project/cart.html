@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Cart Page</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+            <link rel="stylesheet" type="text/css" href="images/swiper.min.css">
+            <link rel="stylesheet" type="text/css" href="styles/cart.css">
+            <link rel="stylesheet" href="scripts/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+            <div class="container-fluid navbar-top">
+       
+                    <div class="row">
+                        <div class="col-xl-2  col-md-12">
+                            <a href="index.html"><img style="width:200px;height:100px;" class="img-fluid" src="images/shop.png" alt="Shop icon"></a>
+                        </div>
+                        <div class="col-xl-7 col-md-12 col-sm-12 search">
+                            <input type="search" placeholder="Search products & brands">
+                            <button>Search</button>
+                        </div>
+                        <div class="col-xl-1  col-md-6 col-sm-12 cart-icon">
+                                <a href="cart_page.html" style="color:white; text-decoration: none;"> Cart</a> <a style="color:white;" href="cart_page.html"> <i  class="fas fa-cart-plus"></i></a>
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-sm-12 cart-icon">
+                             <a href="login.html" style="color:white; text-decoration: none;"> Account</a> <a style="color:white;" href="login.html"> <i class="fas fa-user"></i></a>
+                        </div>
+                       
+                  </div> 
+               
+    
+            </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                <div class="col-xl-5 ">
+                    <img src="images/shirt2.jpg" class="img-fluid" alt="Smiley face">
+                </div>
+                <div class="col-xl-7 ">
+                    <h1>Product title</h1>
+                    <button style="width:70px;" class="btn-price">1200$</button>
+                  
+                    <div class="row">
+                        <div class="col-xl-4">
+                         <p><strong>Brand</strong></p>
+                        </div>
+                        <div class="col-xl-8">
+                           Ralph Lauren Corporation
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-xl-4">
+                             <p><strong>Description</strong></p>
+                            </div>
+                            <div class="col-xl-8">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xl-4">
+                                 <p><strong>Product Code</strong></p>
+                                </div>
+                                <div class="col-xl-8">
+                                    FC505
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-4">
+                                 <p><strong>Review</strong></p>
+                                </div>
+                                <div class="col-xl-8 review-star">
+                                    <i  class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-4">
+                                 <p><strong>Quantity</strong></p>
+                                </div>
+                                <div class="col-xl-8 quantity-item">
+                                    <input type="text" value="1">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-4 ">
+                                 <p><strong>Size</strong></p>
+                                </div>
+                                <div class="col-xl-8 size">
+                                    <button type="button">S</button>
+                                    <button type="button">M</button>
+                                    <button type="button">L</button>
+                                    <button type="button">XL</button>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="row mt-md-4 mt-sm-4">
+                               
+                                <div class="col-xl-4 col-md-6 ">
+                                    <button  onclick="cart()" class="cart1" type="button">Add to Cart</button>
+
+                                </div>
+                                <div class="col-xl-4 col-md-6 mt-sm-2">
+                                    <button  onclick="location.href='login.html';"  class="cart2" type="button">Buy now</button>
+
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="row mt-sm-4">
+                                <div class="col-xl-4 col-md-6 ">
+                                    <i class="fas fa-bacon"></i> <a style="padding-left:10px; color:rgb(5, 132, 206); text-decoration: underline; " href="#">Make an Offer</a>
+                                </div>
+
+                                <div class="col-xl-4 col-md-6 mt-sm-2">
+                                    <i class="far fa-envelope"></i><a style="padding-left:10px;  color:rgb(5, 132, 206);  text-decoration: underline;" href="#">Request FREE Swatch</a>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="row mt-sm-4">
+                                <div class="col-xl-4 col-md-6">
+                                   <button><i class="fas fa-heart"></i> Add to Your Wishlist</button>
+                                </div>
+
+                                <div class="col-xl-4 col-md-6 mt-sm-2">
+                                   <button><strong>checkout with </strong> <img style="width:40px; height:20px;" src="images/amazon.png" alt="Smiley face"></button>
+                                </div>
+                            </div>
+                    
+                
+                </div>
+                </div>
+               
+            </div>
+            <hr>
+        </div>
+
+       <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-10 col-md-10">
+                    <h3 style="font-size:25px;">Give a rating to this Product</h3><hr>
+                </div>
+                <div class="col-xl-1"></div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-xl-1"></div>
+                    <div class="col-xl-5 col-md-6">
+                        <p style="font-size:50px"> <span style="font-size:60px; font-weight: bold;">0</span><strong><sub>/ 5</sub> </strong></p>
+                            <i style="color:silver; font-size:30px;" class="fas fa-star"></i>
+                            <i style="color:silver; font-size:30px;" class="fas fa-star"></i>
+                            <i style="color:silver; font-size:30px;" class="fas fa-star"></i>
+                            <i style="color:silver; font-size:30px;" class="fas fa-star"></i>
+                            <i style="color:silver; font-size:30px;" class="fas fa-star"></i>
+                    </div>
+                    
+                    <div class="col-xl-5 col-md-6 " >
+                                <div class="row" style="margin-top:30px;">
+                                <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                &nbsp; &nbsp;
+                                <button style="border:none;width:200px; height:15px; background-color:rgb(245, 241, 241);"></button> &nbsp; 0
+                                </div>
+
+                                <div class="row" >
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        &nbsp; &nbsp;
+                                        <button style="border:none;width:200px; height:15px; background-color:rgb(245, 241, 241);"></button> &nbsp; 0
+                                </div>
+
+                                <div class="row">
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        &nbsp; &nbsp;
+                                        <button style="border:none;width:200px; height:15px; background-color:rgb(245, 241, 241);"></button> &nbsp; 0
+                                </div>
+
+                                <div class="row">
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        &nbsp; &nbsp;
+                                        <button style="border:none;width:200px; height:15px; background-color:rgb(245, 241, 241);"></button> &nbsp; 0
+                                </div>
+
+                                <div class="row">
+                                        <i style="color:rgb(255, 217, 0); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        <i style="color:rgb(235, 229, 229); font-size:20px;" class="fas fa-star"></i>
+                                        &nbsp; &nbsp;
+                                        <button style="border:none;width:200px; height:15px; background-color:rgb(245, 241, 241);"></button> &nbsp; 0
+                                </div>
+                        </div>
+                        <div class="col-xl-1"></div>
+                </div>
+        </div>
+       </div>
+        
+        <div class="container-fluid " style="background-color:black;min-height:600px; margin-top:200px;">
+            
+                <div class="row no-gutters">
+                    <div class="col-xl-12 col-md-12">
+                            <h4 style="color:white; position: relative; left:180px; top:30px; ">Featured Items</h4>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container-fluid" style="padding-top:60px;">
+                                        <div class="row">
+                                            
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-xl-1"></div>
+                                            <div class="col-xl-2 col-md-2">
+                                                <div class="card" style="width:300px">
+                                                    <img style="height:300px;" src="images/feature1.jpg" class="card-img-top" alt="Smiley face">
+                                                    <div class="card-body">
+                                                        
+                                                        <p class="card-text">Sonam Gears Black Checked Shirt For men</p>
+                                                        <p>Rs. 1050<br>
+                                                        <del>Rs. 2050</del></p>
+                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-2 col-md-2">
+                                                    <div class="card" style="width:300px">
+                                                        <img src="images/feature2.jpg" class="card-img-top" alt="Smiley face">
+                                                        <div class="card-body">
+                                                           
+                                                            <p class="card-text">Green Front Buttoned Kurta Shirt For Men</p>
+                                                            <p>Rs. 1050<br>
+                                                                <del>Rs. 2050</del></p>
+                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-2 col-md-2">
+                                                        <div class="card" style="width:300px">
+                                                            <img src="images/feature3.jpg" class="card-img-top" alt="Smiley face">
+                                                            <div class="card-body">
+                                                               
+                                                                <p class="card-text">Black Plain Cotton Kurta Shirt With Hoodie For Men</p>
+                                                                <p>Rs. 1050<br>
+                                                                    <del>Rs. 2050</del></p>
+                                                                    <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-2 col-md-2" >
+                                                            <div class="card" style="width:300px">
+                                                                <img src="images/feature4.jpg" class="card-img-top" alt="Smiley face">
+                                                                <div class="card-body">
+                                                                  
+                                                                    <p class="card-text">Om Print Front Buttoned Kurta Shirt</p>
+                                                                   
+                                                                    <p>Rs. 1050<br>
+                                                                        <del>Rs. 2050</del></p>
+                                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-2 col-md-2">
+                                                                <div class="card" style="width:300px">
+                                                                    <img src="images/feature5.jpg" class="card-img-top" alt="Smiley face">
+                                                                    <div class="card-body">
+                                                                        
+                                                                        <p class="card-text"> Combo Of 2 Linen Kurta Shirt For Men- Blue/Maroon</p>
+                                                                        <p>Rs. 1050<br>
+                                                                            <del>Rs. 2050</del></p>
+                                                                            <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        <div class="col-xl-1"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="carousel-item ">
+                                        <div class="container-fluid" style="padding-top:60px;">
+                                            <div class="row no-gutters">
+                                                <div class="col-xl-1"></div>
+                                                <div class="col-xl-2 col-md-2">
+                                                    <div class="card" style="width:300px; ">
+                                                        <img src="images/feature6.jpg" class="card-img-top" alt="Smiley face">
+                                                        <div class="card-body">
+                                                            
+                                                            <p class="card-text">Black And Grey Plain Cotton Kurta Shirt With Hoodie For Men</p>
+                                                            <p>Rs. 1050<br>
+                                                                <del>Rs. 2050</del></p>
+                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-xl-2 col-md-2">
+                                                        <div class="card" style="width:300px">
+                                                            <img src="images/feature7.jpg" class="card-img-top" alt="Smiley face">
+                                                            <div class="card-body">
+                                                              
+                                                                <p class="card-text">Men Summer Lightweight Linen Casual Shirt</p>
+                                                                <p>Rs. 1050<br>
+                                                                    <del>Rs. 2050</del></p>
+                                                                    <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                    <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-2 col-md-2">
+                                                            <div class="card" style="width:300px">
+                                                                <img src="images/feature8.jpg" class="card-img-top" alt="Smiley face">
+                                                                <div class="card-body">
+                                                                    
+                                                                    <p class="card-text">Royal Blue Plain Cotton Kurta For Men</p>
+                                                                    <p>Rs. 1050<br>
+                                                                        <del>Rs. 2050</del></p>
+                                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                        <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-2 col-md-2">
+                                                                <div class="card" style="width:300px">
+                                                                    <img style="width:274px;" src="images/feature9.jpg" class="card-img-top" alt="Smiley face">
+                                                                    <div class="card-body">
+                                                                        <p class="card-text">Police Zebra ZSO39 Full Sleeves Cotton Shirt For Men-White</p>
+                                                                        <p>Rs. 1050<br>
+                                                                            <del>Rs. 2050</del></p>
+                                                                            <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                            <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-2 col-md-2">
+                                                                    <div class="card" style="width:300px">
+                                                                        <img src="images/feature10.jpg" class="card-img-top" alt="Smiley face">
+                                                                        <div class="card-body">
+                                                                            
+                                                                            <p class="card-text">Navy Blue/White Checkered Casual Shirt For Men</p>
+                                                                            <p>Rs. 1050<br>
+                                                                                <del>Rs. 2050</del></p>
+                                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                                <i  style="color: rgb(226, 226, 11); border:none;" class="fas fa-star"></i>
+                                                                                <i style="color: rgb(226, 226, 11); border:none;" class="fas fa-star-half"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                    <div class="col-xl-1"></div>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+
+                                    
+
+                            </div>
+                            <a href="#carouselExampleControls" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#carouselExampleControls" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+          
+        </div>
+       
+        
+        
+
+        <script>
+            var alert_one=document.querySelector(".cart1");
+            function cart(){
+                var name=alert("Your item is  added to cart");
+                para.textContent(alert);
+            }
+        </script>
+        
+    </body>
+</html>

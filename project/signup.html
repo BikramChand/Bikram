@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Sign Up page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+  
+        <link rel="stylesheet" type="text/css" href="styles/signup.css">
+        <link rel="stylesheet" href="scripts/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid navbar-top">
+       
+            <div class="row">
+                <div class="col-xl-2  col-md-12">
+                    <a href="index.html"><img style="width:200px;height:100px;" class="img-fluid" src="images/shop.png" alt="Shop icon"></a>
+                </div>
+                <div class="col-xl-7 col-md-12 col-sm-12 search">
+                    <input type="search" placeholder="Search products & brands">
+                    <button>Search</button>
+                </div>
+                <div class="col-xl-1  col-md-6 col-sm-12 cart-icon">
+                        <a href="cart_page.html" style="color:white; text-decoration: none;"> Cart</a> <a style="color:white;" href="cart_page.html"> <i  class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="col-xl-2 col-md-6 col-sm-12 cart-icon">
+                     <a href="login.html" style="color:white; text-decoration: none;"> Account</a> <a style="color:white;" href="login.html"> <i class="fas fa-user"></i></a>
+                </div>
+               
+          </div> 
+       
+
+    </div>
+        <div class="container">
+      
+			
+            <form class="bg-light" action="#" name="f1" onsubmit="return validation()">
+            <h3 style="text-align:center">SIGN UP FOR NEW MEMBERS</h3><br>
+              <div class="row validate">
+                <div class="col-xl-6"> 
+                <label>Phone Number*</label><br>
+                <input style="width:400px;" type="text" name="phone_number" id="phone_validation" ><br>
+                <span id="phoneid" class="text-danger font-weight-bold"></span>
+               
+                
+                
+              </div>
+              <div class="col-xl-6">
+                  <label>Full Name</label><br>
+                  <input type="text" name="user" id="first_name"><br>
+              <span id="name_field" class="text-danger font-weight-bold"></span>
+              </div>
+            </div>
+
+            <div class="row validate">
+              <div class="col-xl-6">
+              
+                <label>Verification Code*</label><br>
+                <input type="text" name="user" id="code" ><br>
+                <span id="code_field" class="text-danger font-weight-bold"></span>
+             
+              </div>
+              <div class="col-xl-6">
+                  <label>Email Address</label><br>
+                  <input type="text" name="user" id="emailid" ><br>
+              <span id="email_field" class="text-danger font-weight-bold"></span>
+              </div>
+            </div>
+              
+            <div class="row validate">
+              <div class="col-xl-6">
+            
+                <label>Password*</label><br>
+                <input type="text" name="user" id="pass" ><br>
+                <span id="password_field" class="text-danger font-weight-bold"></span>
+              </div>
+
+              <div class="col-xl-6">
+            
+                <label>Confirm Password*</label><br>
+                <input type="text" name="user" id="confirm" ><br>
+                <span id="confirm_field" class="text-danger font-weight-bold"></span>
+              </div>
+
+              
+            </div>
+          
+            <div class="row validate">
+              <div class="col-xl-6">
+                <p style="padding-top:12px;"> Date of Birth: <input style="border:1px solid silver; width:295px;" type="date">
+              </div>
+              <div class="col-xl-6">
+                  
+                <input class="submit" type="submit" name="submit" value="SIGN UP" id="username"  ><br>
+            <span id="usernameid" class="text-danger font-weight-bold"></span>
+              <p>OR sign up with</p>
+              <div class="row">
+                <div class="col-xl-3 col-md-3">
+                  <button style="background-color:rgb(60, 60, 185); border:none; width:200px; height:35px;" type="button"> <i style="color:white;" class="fab fa-facebook-f"></i> Facebook</button><br>
+                      
+                </div>
+                <div class="col-xl-3 col-md-3  ml-sm-0">
+                  <button style="background-color:rgb(165, 34, 34); border:none; width:200px; height:35px; margin-left:60px; " type="button"> <i style="color:white;" class="fab fa-google-plus-g"></i> Goggle+</button><br>
+                </div>
+              </div>
+
+            </div>
+          </div>
+            </form>
+         
+          </div>
+
+          <footer id="footer">
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-3 col-md-6 footer-links">
+
+                    <h1>ABOUT</h1><hr style="background-color:silver;">
+                    
+                    <ul style="margin:0;padding:0;">
+                      <li><a href="#"> About</a></li>
+                      <li><a href="#">  News</a></li>
+                      <li><a href="#">  Shop now</a></li>
+                      <li><a href="#">  Jobs</a></li>
+                   </ul>
+                  
+                  </div>
+                  <div class="col-xl-3 col-md-6 footer-links">
+                     <h1> DISCOVER</h1><hr style="background-color:silver;">
+                     <ul style="margin:0;padding:0;">
+                        <li><a href="#"> Contact</a></li>
+                        <li><a href="#"> Location</a></li>
+                        <li><a href="#"> Shipping</a></li>
+                        <li><a href="#"> Buit At Shop Now</a></li>
+                     </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 footer-links">
+                       <h1> RESOURCES</h1><hr style="background-color:silver;">
+                       <ul style="margin:0;padding:0;">
+                          <li><a href="#"> Terms & Conditions</a></li>
+                          <li><a href="#">  Privacy Policy</a></li>
+                          <li><a href="#"> Accessibility</a></li>
+                          <li><a href="#">Safety & Security</a></li>
+                       </ul>
+                      </div>
+                      <div class="col-xl-3 col-md-6 footer-links">
+                         <h1>CONNECT WITH US</h1><hr style="background-color:silver;">
+                         <input style="width:250px;height:40px;border:1px solid silver;color:white;background-color:rgb(10, 10, 10); padding-left:5px;" type="email" placeholder="Email Address" >
+                         <div class="subscribe">
+                         <input style="width:140px;height:50px; color:white; background-color:rgb(7, 127, 224);border:none;" type="submit" value="Subscribe"><br>
+                         </div>
+                        <div class="fab-icons">
+                            <a style="background-color:rgb(59, 59, 151)" class="icon" href="#">
+                                <i style="padding-left:10px; padding-top:5px;" class="fab fa-facebook-f"></i>
+                            </a>
+                          
+                         
+                              <a style="background-color:rgb(179, 14, 14);" class="icon" href="#">
+                                  <i style="padding-left:3px; padding-top:5px;"  class="fab fa-youtube"></i>
+                              </a>
+                         
+                        
+                                <a style="background-color:rgb(40, 134, 241);" class="icon" href="#">
+                                    <i style="padding-top:5px;" class="fab fa-twitter"></i>
+                                </a>
+                        
+                         
+                                  <a style="background-color:rgb(12, 85, 153)" class="icon" href="#">
+                                      <i style="padding-top:4px;" class="fab fa-linkedin-in"></i>
+                                  </a>
+                         
+                          
+                                    <a style="background-color:rgb(44, 133, 216)" class="icon" href="#">
+                                        <i style="padding-top:5px;" class="fab fa-instagram"></i>
+                                    </a>
+                        </div>
+                    
+    
+                        </div>
+                </div>
+                <hr style="background-color:silver;">
+               
+                <div class="row">
+                    <div class="col-xl-12 footer-content">
+                        <p><small>&copy;Copyright @ 2019 ShopNow.com. All Rights Reserved</small></p>
+                        <p>Made by: Bikram Chand </p>
+                        <P>Browser Info: <span style="color:white;" id="browser"></span> </P>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </footer>
+        
+          
+          <script>
+              var userAgent=navigator.userAgent;
+        var opera=(userAgent.indexOf('Opera')!=-1);
+        var ie=(userAgent.indexOf('MSIE')!=-1);
+        var gecko=(userAgent.indexOf('Gecko')!=-1);
+        var netscape=(userAgent.indexOf('Mozilla')!=-1);
+        var version=navigator.appVersion;
+        var status=navigator.onLine;
+  
+              if(opera){
+          document.getElementById("browser").innerHTML="Opera based browser";
+        }
+              else if(gecko){
+          document.getElementById("browser").innerHTML="Mozilla based browser";
+        }
+        else if(ie){
+          document.getElementById("browser").innerHTML="IE based browser";
+        }
+        else if(netscape){
+          document.getElementById("browser").innerHTML="netscape based browser";
+        }
+        else{
+          document.getElementById("browser").innerHTML="Unknown browser";
+        }
+  
+  
+        document.write("<br>Browser version is ="+version)
+          </script>
+  
+        
+
+          <script src="scripts/form_validate.js" ></script>
+            
+            
+    </body>
+</html>

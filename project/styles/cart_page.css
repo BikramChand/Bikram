@@ -1,0 +1,128 @@
+.navbar-top{
+    min-height:50px;
+    background-color:rgb(233, 17, 64);
+}
+
+.search{
+   padding-top:25px;
+}
+.search input{
+    width:600px;
+    height:40px;
+    border:none;
+}
+
+.search button{
+    height:40px;
+    width:90px;
+    border:none;
+    background-color:rgb(20, 20, 20);
+    color:white;
+}
+
+.cart-icon{
+    padding-top:35px;
+    color:white;
+
+}
+
+@font-face{
+    font-family:'modak';
+    src:url("../scripts/fonts/Modak/Modak-Regular.ttf");
+    
+    font-style:normal;
+    font-weight:200;
+}
+.font p{
+    font-family:modak;
+    font-weight:150;
+    font-size:50px;
+}
+#footer{
+     
+    min-height:300px;
+    background-color:rgb(0, 0, 0);
+    position: relative;
+    top:100px;
+}
+
+#connect{
+   color:white;
+   font-size:20px;
+   padding-top:20px;
+   padding-left:40px;
+}
+
+.icons{
+   padding-left:60px;
+}
+
+.fab-icons .icon{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:#f1f1f1;
+   border-radius:10px;
+   
+    box-shadow: 0 5px 15px -5px #00000070;
+    color:white;
+    overflow:hidden;
+    position: relative;
+}
+
+.icon i{
+ 
+   padding-left:5px;
+    font-size:20px;
+    transition: 0.2s linear;
+}
+
+
+
+
+.icon:hover i{
+   
+   transform: scale(1.3);
+}
+
+
+.e-mail{
+    padding-left:600px;
+}
+
+
+
+button:hover{
+    transition:0.2s all;
+    
+}
+
+.col-1{
+    color:white;
+}
+
+.footer-top h1{
+    color:white;
+    font-size:13pt;
+}
+
+.footer-links ul li{
+    list-style-type: none;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.subscribe{
+    padding-top:15px;
+}
+
+.fab-icons{
+    padding-top:15px;
+}
+
+.footer-content p{
+    color:white;
+    text-align: center;
+}

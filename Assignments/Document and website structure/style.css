@@ -1,0 +1,102 @@
+body{
+    background-color:gray;
+}
+header{
+    width:90%;
+    min-height:50px;
+    background-color:rgb(240, 76, 232);
+    margin:auto auto;
+}
+
+ h1{
+    font-family: Sonsie One;
+    color:white;
+    margin-top:10px;
+    text-align:center;
+    
+}
+main p{
+    padding-left:6px;
+}
+
+#search{
+    background-color:black;
+    color:white;
+}
+
+
+
+nav ul li{
+    display: inline;
+    font-family: Arial;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:35px;
+    color:black;
+
+}
+
+form{
+    float:right;
+    margin-top:5px;
+}
+
+
+nav{
+    float:left;
+    
+}
+
+ main{
+    width:90%;
+    min-height:300px;
+    background-color:gray;
+    margin:auto auto;
+    padding-top:10px;
+}
+
+article{
+    width:86.5%;
+    height:390px;
+    background-color:white;
+    float:left;
+  
+}
+
+ aside{
+    width:13%;
+    height:390px;
+    background-color:rgb(240, 76, 232);
+    float:right;
+}
+
+footer{
+    width:90%;
+    min-height:70px;
+    background-color:white;
+    clear:both;
+    margin:auto auto;
+    position: relative;
+    top:10px;
+}
+
+footer p{
+    padding-left:6px;
+}
+
+h2{
+    font-family:Sonsie One;
+}
+
+#last ul li{
+    font-family:Arial;
+}
+
+h2, h3{
+    padding-left:6px;
+}
+

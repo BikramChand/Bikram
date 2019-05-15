@@ -1,0 +1,142 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  font-size:10px;
+ 
+}
+
+
+h1{
+  font-size:30px;
+  text-align: center;
+  letter-spacing:0.3px;
+}
+
+h2{
+  font-size:18px;
+  letter-spacing: 0;
+}
+
+p{
+  font-size:13px;
+  text-indent: 20px;
+}
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height:30px;
+  letter-spacing:0.7px;
+  word-spacing: 0.8px;
+}
+
+@font-face{
+  font-family:'open_sans';
+  src:url("fonts/BioRhyme_Expanded/BioRhymeExpanded-ExtraBold.ttf");
+  font-style:normal;
+  font-weight:150;
+}
+
+h1{
+  font-family:open_sans;
+  font-weight:150;
+}
+
+@font-face{
+  font-family:'header_second';
+  src:url("fonts/BioRhyme_Expanded/BioRhymeExpanded-Bold.ttf");
+  font-style:normal;
+  font-weight:150;
+}
+
+h2{
+  font-family: header_second;
+  font-weight:100;
+}
+
+
+@font-face{
+  font-family:'sans';
+  src:url("fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+  font-style:normal;
+  font-weight:50;
+  
+}
+
+p{
+  font-family: sans;
+  
+}
+
+
+
+
+
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+nav ul li a:hover{
+  background-color:orange;
+}
+nav ul li{
+  list-style-type: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#a66;
+}
+
+button{
+  width:160px;
+  height:40px;
+  background-color:white;
+}
+
+button:hover{
+  background-color:maroon;
+}
+
+.btn{
+ margin-top:10px;
+}
+
+ * li{
+    font-size:14px;
+ }
